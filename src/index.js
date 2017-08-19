@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';  
-require('../public/style.css') 
 
 
 class App extends Component {
 
   render() {
+  	console.log('hello world!')
     return (
       <div>
         <p>Hello World!</p>
